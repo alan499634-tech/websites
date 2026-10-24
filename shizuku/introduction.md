@@ -34,7 +34,13 @@ The disadvantages of this type of method are:
 
 ### Shizuku method
 
-The Shizuku app will direct the user to run a process (Shizuku service process) using root or adb.
+The Shizuku app will direct 
+
+
+
+https://github.com/user-attachments/assets/7125d201-6b63-49d8-af76-6583b8155966
+
+ user to run a process (Shizuku service process) using root or adb.
 
 1. When the app process starts, the Shizuku service process sends the binder to the app process.
 2. The app interacts with the Shizuku service through the binder, and the Shizuku service process interacts with the system server through the binder.
